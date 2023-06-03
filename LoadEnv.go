@@ -44,7 +44,6 @@ func LoadEnv(env string) string {
 		iterator += i
 	}
 	return strings.Trim(iterator, "\"")
-	// return iterator
 }
 
 func ReadEnv(env string, wg *sync.WaitGroup, result chan<- string, operators <-chan string) {

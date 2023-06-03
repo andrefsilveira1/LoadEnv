@@ -1,4 +1,4 @@
-package main
+package LoadEnv
 
 import (
 	"bufio"
@@ -8,8 +8,6 @@ import (
 	"strings"
 	"sync"
 )
-
-// github.com/andrefsilveira1/LoadEnv
 
 func LoadEnv(env string) string {
 	envFile, err := os.Open(".env")

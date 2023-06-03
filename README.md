@@ -10,6 +10,10 @@ This is a LoadEnv concurrently function in Golang. This is a part of my study in
 - The function will return a string value, so you'll have to convert into the value that you want
 
 
+# Latest:
+ V1.0.3
+
+
 # Contribuition:
 
  As I said before, this is part of my study, so it will be quite nice if you help me in improve this code !

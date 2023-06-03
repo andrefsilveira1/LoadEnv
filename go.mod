@@ -1,3 +1,3 @@
-module github.com/andrefsilveira1/LoadEnv
+module LoadEnv
 
 go 1.20

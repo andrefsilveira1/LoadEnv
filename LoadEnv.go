@@ -9,6 +9,8 @@ import (
 	"sync"
 )
 
+// github.com/andrefsilveira1/LoadEnv
+
 func LoadEnv(env string) string {
 	envFile, err := os.Open(".env")
 	if err != nil {
@@ -44,7 +46,6 @@ func LoadEnv(env string) string {
 		iterator += i
 	}
 	return strings.Trim(iterator, "\"")
-	// return iterator
 }
 
 func ReadEnv(env string, wg *sync.WaitGroup, result chan<- string, operators <-chan string) {

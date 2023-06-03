@@ -2,7 +2,6 @@ package LoadEnv
 
 import (
 	"bufio"
-	"fmt"
 	"log"
 	"os"
 	"strings"
@@ -29,7 +28,6 @@ func LoadEnv(env string) string {
 		scanner := bufio.NewScanner(file)
 		for scanner.Scan() {
 			op <- scanner.Text()
-			fmt.Println("Inside:", scanner.Text())
 		}
 		close(op)
 	}()

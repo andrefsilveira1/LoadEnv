@@ -9,7 +9,8 @@ This is a LoadEnv concurrently function in Golang. This is a part of my study in
 - Notice that the `LoadEnv` will try to find the `.env` file in the same directory. This means that the config file has to be in the same folder with the `.env` file
 - The function will return a string value, so you'll have to convert into the value that you want
 
-
+# Go get:
+- Use the prompt `go get github.com/andrefsilveira1/LoadEnv` and import it in the file that you'll use the LoadEnv function
 # Latest:
  V1.0.3
 

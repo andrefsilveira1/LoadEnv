@@ -11,6 +11,7 @@ This is a LoadEnv concurrently function in Golang. This is a part of my study in
 
 # Go get:
 - Use the prompt `go get github.com/andrefsilveira1/LoadEnv` and import it in the file that you'll use the LoadEnv function
+- Notice that it is recommended use the latest version of `LoadEnv`.
 # Latest:
  V1.0.3
 

@@ -111,7 +111,7 @@ func TestLoad(t *testing.T) {
 		{
 			envName: "API_DOCKER_BIND_PORT",
 			want:    "DOCKER_BIND_PORT",
-		}, // CUT
+		},
 		{
 			envName: "ENV_DOCKER",
 			want:    "DOCKER",
